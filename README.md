@@ -16,11 +16,13 @@ in your codebase.
 
 ### Relational Databases
 
- * [databases](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/databases_healthcheck.py) -
+ * [databases](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/databases_healthchecks.py) -
  An asyncio wrapper for PostgreSQL, MySQL etc.
- * [sqlalchemy](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/sqlalchemy_healthcheck.py) - 
+ * [django](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/django_healthchecks.py) -
+ An asyncio wrapper for PostgreSQL, MySQL etc.
+ * [sqlalchemy](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/sqlalchemy_healthchecks.py) - 
  The Python ORM that everyone loves
- * [psycopg2](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/psycopg2_healthcheck.py) - 
+ * [psycopg2](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/psycopg2_healthchecks.py) - 
  The de-facto PostgreSQL driver for Python
 
 
