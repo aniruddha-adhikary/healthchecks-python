@@ -10,6 +10,9 @@ The aim is to answer these questions.
 Take a template function, take it a motivation to implement a health check
 in your codebase.
 
+ * Make sure to consider timeouts, and use proper timeouts for every health check.
+ Otherwise your health check itself might hand up, waiting endlessly.
+
 # Libraries Covered
 
 ## Databases and Caches
@@ -19,7 +22,7 @@ in your codebase.
  * [databases](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/databases_healthchecks.py) -
  An asyncio wrapper for PostgreSQL, MySQL etc.
  * [django](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/django_healthchecks.py) -
- An asyncio wrapper for PostgreSQL, MySQL etc.
+ The most popular web framework in Python.
  * [sqlalchemy](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/sqlalchemy_healthchecks.py) - 
  The Python ORM that everyone loves
  * [psycopg2](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/relational_db/psycopg2_healthchecks.py) - 
