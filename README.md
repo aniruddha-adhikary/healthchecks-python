@@ -12,4 +12,13 @@ in your codebase.
 
 # Libraries Covered
 
-(none yet)
+## Databases and Cachess
+
+### Redis
+
+Redis is a popular K/V Store. We are using the PING command for checking system status.
+
+ * [aioredis](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/redis/aioredis_healthcheck.py) -
+ An asyncio-powered client for Redis
+ * [redis-py](https://github.com/aniruddha-adhikary/healthchecks-python/blob/master/healthchecks/redis/redis_py_healthcheck.py) - 
+ The most popular Redis client for Python
